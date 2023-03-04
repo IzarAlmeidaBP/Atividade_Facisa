@@ -1,0 +1,104 @@
+/* Cabeçalho */
+header {
+  background-color: rgb(63, 146, 210);
+  text-align: center;
+  padding: 0.3rem;
+  font-family: sans-serif;
+
+}
+
+small {
+  color: white;
+}
+
+/* dados-corpo*/
+
+body {
+  margin: auto;
+  margin-top: 10%;
+  border: 5px solid rgb(99, 143, 192);
+  font-family: sans-serif;
+  width: 50rem;
+
+}
+
+.container {
+  padding: 1rem;
+  background-color: rgb(237, 234, 226);
+  height: 22rem;
+
+}
+
+.links {
+  display: flex;
+  gap: 2rem;
+  color: blue;
+}
+
+button {
+  margin-top: 2rem;
+  width: 110px;
+  padding: 0.35rem 0;
+  border-radius: 4px;
+}
+
+form {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+  width: 24rem;
+}
+
+
+input {
+  outline: none;
+  border: 1px solid gray;
+  justify-self: flex-end;
+  padding: 0.25rem 0.5rem;
+  width: 70%;
+}
+
+.cadastro-pessoa {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Tabela */
+
+table {
+  margin-top: 7%;
+  width: 40rem;
+  height: 10rem;
+}
+
+table,
+th,
+td{
+border: 1px solid black;
+/* padding: 5px 50px 10px 10px ; */
+border-collapse: collapse;
+}
+
+
+td {
+  text-align: center;
+  padding: 1.5rem;
+
+}
+
+th {
+  background-color: rgb(201, 200, 199);
+  
+
+}
+
+
+img {
+  width: 5rem;
+}
+
+.sobre-table,
+th {
+  width: 12.99rem;
+
+}
